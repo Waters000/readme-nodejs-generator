@@ -17,7 +17,7 @@ const generateAbout = aboutText => {
           .filter(({ feature }) => feature)
           .map(({ name, description, languages, link }) => {
             return `
-            ###${name}
+            # ${name}
              
              ##   ${languages.join(', ')}
               
@@ -32,13 +32,13 @@ const generateAbout = aboutText => {
           .filter(({ feature }) => !feature)
           .map(({ name, description, languages, link }) => {
             return `
-            ${name}
+           # ${name}
              
               ##  Built With:
                 ${languages.join(', ')}
            
-             ${description}
-             "${link}" 
+            ## ${description}
+             ### "${link}" 
    
           `;
           })
@@ -58,7 +58,7 @@ const generateAbout = aboutText => {
    
     
     
-      ###${header.name}
+      #${header.name}
       
      ## href="https://github.com/${header.github}">Github
     
@@ -66,10 +66,10 @@ const generateAbout = aboutText => {
  
    ### ${generateAbout(about)}
     ${generateProjects(projects)}
-    </main>
   
   
-    ${new Date().getFullYear()} by ${header.name}</h3>
+  
+    ${new Date().getFullYear()} by ${header.name}
 
     
      

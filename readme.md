@@ -1,31 +1,18 @@
 
-#CHris
-      
-## href="https://github.com/Waters000">Github
-    
-  
- 
-### 
-    
-      
-        
+ # Readme Project     
+ # href="https://github.com/Waters000">Github
   
         
-# watersproject
-             
-##  Built With: JavaScript
-           
-## this is a great project
-### "waters000.com" 
-   
+### Description, this is a readme generator
+# motivation was to save time generating a readme   
+# this eliminates time   
+## Built with JavaScript, CSS
+# MIT, Mozilla          
+### Waters000.com 
+            
           
-      
-     
     
-  
-  
-  
-# 2022 by CHris
+# 2022 by Readme Project
 
     
      

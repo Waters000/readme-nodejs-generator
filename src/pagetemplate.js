@@ -1,70 +1,40 @@
 // create the about section
-const generateAbout = aboutText => {
-    if (!aboutText) {
-      return '';
-    }
-    return `
-   
-  
-#${aboutText}
-    `;
-  }
-  
+// const generateAbout = aboutText => {
+//     if (!aboutText) {
+//       return '';
+//     }
+//     return `
+// # ${aboutText} 
+//     `;
+//   }
   const generateProjects = projectsArr => {
     return `
-      
-        ${projectsArr
-          .filter(({ feature }) => feature)
-          .map(({ name, description, languages, link }) => {
-            return `
-# <h1> ${name} </h1>
-             
-## <h2>  ${languages.join(', ')} </h2>
-              
-### <h3> ${description}
-### ${link} </h3>
-           
-          `;
-          })
-          .join('')}
-  
         ${projectsArr
           .filter(({ feature }) => !feature)
-          .map(({ name, description, languages, link }) => {
+          .map(({ name, license, description, problem, languages, link }) => {
             return `
-# ${name}
-             
-##  Built With: ${languages.join(', ')}
-           
-## ${description}
-### "${link}" 
-   
+### ${description}
+# ${name}   
+# ${problem}   
+## Built with ${languages.join(', ')}
+# ${license.join(', ')}          
+### ${link} 
+            
           `;
           })
           .join('')}
-      
-     
     `;
   };
   
   
-  module.exports = templateData => {
-   
+  module.exports = templateData => { 
   // destructure projects and about data from templateData based on their property key name
   const {projects, about, ...header} = templateData;
   
     return `
-#${header.name}
-      
-## href="https://github.com/${header.github}">Github
-    
-  
- 
-### ${generateAbout(about)}
-    ${generateProjects(projects)}
-  
-  
-  
+ # ${header.name}     
+ # href="https://github.com/${header.github}">Github
+  ${generateProjects(projects)}
 # ${new Date().getFullYear()} by ${header.name}
 
     

@@ -17,12 +17,12 @@ const generateAbout = aboutText => {
           .filter(({ feature }) => feature)
           .map(({ name, description, languages, link }) => {
             return `
-            # ${name}
+            # <h1> ${name} </h1>
              
-             ##   ${languages.join(', ')}
+             ## <h2>  ${languages.join(', ')} </h2>
               
-            ###  ${description}
-           ### ${link}
+            ### <h3> ${description}
+           ### ${link} </h3>
            
           `;
           })

@@ -13,12 +13,18 @@
           .filter(({ feature }) => !feature)
           .map(({ name, license, description, problem, languages, link }) => {
             return `
-## Desription: ${description}
-## Names of Contributors: ${name}   
-## Problem this project solves: ${problem}   
-## Built with: ${languages.join(', ')}
-## Type of Licenses ${license.join(', ')}          
-## Reference Links: ${link} `;
+## Desription: 
+${description}
+## Names of Contributors: 
+${name}   
+## Problem this project solves:
+ ${problem}   
+## Built with: 
+${languages.join(', ')}
+## Type of Licenses 
+${license.join(', ')}          
+## Reference Links: 
+${link} `;
           })
         }
     `;

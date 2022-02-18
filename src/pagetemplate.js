@@ -19,7 +19,9 @@ ${description}
 ${name}   
 ## Problem this project solves:
  ${problem}   
-## Built with: 
+## Image 
+![Screenshot 2022-01-29 190329](https://user-images.githubusercontent.com/94644749/151681703-6695c05a-eb11-422b-9a5f-5c0c2410157a.png)
+## Built with:
 ${languages.join(', ')}
 ## Type of Licenses 
 ${license.join(', ')}          
@@ -36,9 +38,9 @@ ${link} `;
   const {projects, about, ...header} = templateData;
   
     return `
- # ${header.name}     
- ## href="https://github.com/${header.github}">Github
-  ${generateProjects(projects)}
-### ${new Date().getFullYear()} by ${header.name}  `;
+ # ${header.name}    
+ ${generateProjects(projects)}
+ ## "https://github.com/${header.github}"
+### ${new Date().getFullYear()} by ${header.github}  `;
   };
   

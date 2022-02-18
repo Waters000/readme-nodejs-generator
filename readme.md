@@ -16,15 +16,15 @@
     <body>
     <header>
     <div class="container flex row justify-space-between align-center py-3">
-      <h1 class="page-title text-secondary bg-dark py-2 px-3">asdfa</h1>
+      <h1 class="page-title text-secondary bg-dark py-2 px-3">###asdf</h1>
       <nav class="flex-row">
-      <a class="ml-2 my-1 px-2 py-1 bg-secondary text-dark" href="https://github.com/asdf">Github</a>
+      <a class="ml-2 my-1 px-2 py-1 bg-secondary text-dark" href="https://github.com/asdfa">Github</a>
     </nav>
     </header>
   
     <main class="container my-5">
-    
-    
+   ### 
+   #### 
       <section class="my-3" id="portfolio">
         <h2 class="text-dark bg-primary p-2 display-inline-block">Work</h2>
         <div class="flex-row justify-space-between">
@@ -32,13 +32,13 @@
   
         
             <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
-              <h3 class="portfolio-item-title text-light">asdf</h3>
+              <h3 class="portfolio-item-title text-light">sfasd</h3>
               <h5 class="portfolio-languages">
-                Built With:
+              ##  Built With:
                 JavaScript, HTML, CSS, ES6, jQuery, Bootstrap, Node
               </h5>
-              <p>asd</p>
-              <a href="sdf" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+              <p>fas</p>
+              <a href="asdf" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
             </div>
           
         </div>
@@ -47,7 +47,7 @@
     </main>
   
     <footer class="container text-center py-3">
-    <h3 class="text-dark">&copy; 2022 by asdfa</h3>
+    <h3 class="text-dark">&copy; 2022 by asdf</h3>
     </footer>
     
       </body>

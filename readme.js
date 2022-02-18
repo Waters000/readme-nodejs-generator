@@ -31,12 +31,12 @@ const promptUser = () => {
         }
       }
     },
-    {
-      type: 'confirm',
-      name: 'confirmAbout',
-      message: 'Would you like to enter some information about yourself for an "About" section?',
-      default: true
-    },
+    // {
+    //   type: 'confirm',
+    //   name: 'confirmAbout',
+    //   message: 'Would you like to enter some information about yourself for an "About" section?',
+    //   default: true
+    // },
     {
       type: 'input',
       name: 'about',
@@ -47,11 +47,11 @@ const promptUser = () => {
 };
 
 const promptProject = portfolioData => {
-  console.log(`
-=================
-Add a New Project
-=================
-`);
+//   console.log(`
+// =================
+// Add a New Project
+// =================
+// `);
 
   // If there's no 'projects' array property, create one
   if (!portfolioData.projects) {
@@ -104,18 +104,18 @@ Add a New Project
           }
         }
       },
-      {
-        type: 'confirm',
-        name: 'feature',
-        message: 'Would you like to feature this project?',
-        default: false
-      },
-      {
-        type: 'confirm',
-        name: 'confirmAddProject',
-        message: 'Would you like to enter another project?',
-        default: false
-      }
+    //   {
+    //     type: 'confirm',
+    //     name: 'feature',
+    //     message: 'Would you like to feature this project?',
+    //     default: false
+    //   },
+    //   {
+    //     type: 'confirm',
+    //     name: 'confirmAddProject',
+    //     message: 'Would you like to enter another project?',
+    //     default: false
+    //   }
     ])
     .then(projectData => {
       portfolioData.projects.push(projectData);

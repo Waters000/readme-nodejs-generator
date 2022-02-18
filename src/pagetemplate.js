@@ -6,7 +6,7 @@ const generateAbout = aboutText => {
     return `
     <section class="my-3" id="about>
     <h2 class="text-dark bg-primary p-2 display-inline-block">About Me</h2>
-    <p>${aboutText}</p>
+    <p>#${aboutText}</p>
     `;
   }
   
@@ -22,7 +22,7 @@ const generateAbout = aboutText => {
             <div class="col-12 mb-2 bg-dark text-light p-3">
               <h3 class="portfolio-item-title text-light">${name}</h3>
               <h5 class="portfolio-languages">
-                Built With:
+               ## Built With:
                 ${languages.join(', ')}
               </h5>
               <p>${description}</p>
@@ -39,7 +39,7 @@ const generateAbout = aboutText => {
             <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
               <h3 class="portfolio-item-title text-light">${name}</h3>
               <h5 class="portfolio-languages">
-                Built With:
+              ##  Built With:
                 ${languages.join(', ')}
               </h5>
               <p>${description}</p>
@@ -77,15 +77,15 @@ const generateAbout = aboutText => {
     <body>
     <header>
     <div class="container flex row justify-space-between align-center py-3">
-      <h1 class="page-title text-secondary bg-dark py-2 px-3">${header.name}</h1>
+      <h1 class="page-title text-secondary bg-dark py-2 px-3">###${header.name}</h1>
       <nav class="flex-row">
       <a class="ml-2 my-1 px-2 py-1 bg-secondary text-dark" href="https://github.com/${header.github}">Github</a>
     </nav>
     </header>
   
     <main class="container my-5">
-    ${generateAbout(about)}
-    ${generateProjects(projects)}
+   ### ${generateAbout(about)}
+   #### ${generateProjects(projects)}
     </main>
   
     <footer class="container text-center py-3">

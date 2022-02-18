@@ -59,12 +59,12 @@ const promptProject = portfolioData => {
         {
         type: 'input',
         name: 'name',
-        message: 'What is your motivation to build project? (Required)',
+        message: 'Add names of Contributors seperated by a comma (Required)',
         validate: nameInput => {
           if (nameInput) {
             return true;
           } else {
-            console.log('What is your motivation to build please?');
+            console.log('Please add contributors?');
             return false;
           }
         }
@@ -97,15 +97,8 @@ const promptProject = portfolioData => {
       {
         type: 'input',
         name: 'link',
-        message: 'Enter the GitHub link to your project. (Required)',
-        validate: linkInput => {
-          if (linkInput) {
-            return true;
-          } else {
-            console.log('You need to enter a project GitHub link!');
-            return false;
-          }
-        }
+        message: 'Any Links used as a reference to build project.',
+      
       },
     //   
     

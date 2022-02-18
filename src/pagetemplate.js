@@ -13,16 +13,14 @@
           .filter(({ feature }) => !feature)
           .map(({ name, license, description, problem, languages, link }) => {
             return `
-### ${description}
-# ${name}   
-# ${problem}   
-## Built with ${languages.join(', ')}
-# ${license.join(', ')}          
-### ${link} 
-            
-          `;
+## Desription: ${description}
+## Names of Contributors: ${name}   
+## Problem this project solves: ${problem}   
+## Built with: ${languages.join(', ')}
+## Type of Licenses ${license.join(', ')}          
+## Reference Links: ${link} `;
           })
-          .join('')}
+        }
     `;
   };
   
@@ -33,12 +31,8 @@
   
     return `
  # ${header.name}     
- # href="https://github.com/${header.github}">Github
+ ## href="https://github.com/${header.github}">Github
   ${generateProjects(projects)}
-# ${new Date().getFullYear()} by ${header.name}
-
-    
-     
-    `;
+### ${new Date().getFullYear()} by ${header.name}  `;
   };
   

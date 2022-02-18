@@ -1,19 +1,13 @@
 
- # Readme Project     
- # href="https://github.com/Waters000">Github
+ # project     
+ ## href="https://github.com/username">Github
   
         
-### Description, this is a readme generator
-# motivation was to save time generating a readme   
-# this eliminates time   
-## Built with JavaScript, CSS
-# MIT, Mozilla          
-### Waters000.com 
-            
-          
+## Desription: description
+## Names of Contributors: contributors, chris, jim   
+## Problem this project solves: problem saves time   
+## Built with: JavaScript, ES6
+## Type of Licenses MIT, Mozilla          
+## Reference Links: reference links 
     
-# 2022 by Readme Project
-
-    
-     
-    
+### 2022 by project  

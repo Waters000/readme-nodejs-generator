@@ -31,6 +31,12 @@ const promptUser = () => {
         }
       }
     },
+    {
+        type: 'confirm',
+        name: 'confirmAbout',
+        message: 'Would you like photo Added to Readme?',
+        default: true
+      },
   ]);
 };
 
@@ -82,6 +88,7 @@ const promptProject = portfolioData => {
           }
         }
       },
+     
       {
         type: 'checkbox',
         name: 'languages',

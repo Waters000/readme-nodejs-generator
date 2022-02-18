@@ -1,21 +1,21 @@
 
- # adsfklajsdf    
+ # Project Readme Generator    
  
         
 ## Desription: 
-asdf
+Fun way to add a readme to your Github file easily and fast
 ## Names of Contributors: 
-asd   
+Chris Waters, UCF   
 ## Problem this project solves:
- fads   
-## Image 
-![Screenshot 2022-01-29 190329](https://user-images.githubusercontent.com/94644749/151681703-6695c05a-eb11-422b-9a5f-5c0c2410157a.png)
+ Faster way to add readme   
 ## Built with:
-
+JavaScript, CSS
 ## Type of Licenses 
-MIT, GNU, Mozilla, Apache, GPLUv3, Public, Google          
+MIT, Mozilla, Apache          
 ## Reference Links: 
-asdf 
+yahoo.com
+ 
     
- ## "https://github.com/asdf"
-### 2022 by asdf  
+ ## "https://github.com/Waters000"
+ ![Screenshot 2022-01-29 190329](https://user-images.githubusercontent.com/94644749/151681703-6695c05a-eb11-422b-9a5f-5c0c2410157a.png)
+### 2022 by Waters000  

@@ -6,7 +6,7 @@ const generateAbout = aboutText => {
     return `
    
   
-    #${aboutText}
+#${aboutText}
     `;
   }
   
@@ -17,12 +17,12 @@ const generateAbout = aboutText => {
           .filter(({ feature }) => feature)
           .map(({ name, description, languages, link }) => {
             return `
-            # <h1> ${name} </h1>
+# <h1> ${name} </h1>
              
-             ## <h2>  ${languages.join(', ')} </h2>
+## <h2>  ${languages.join(', ')} </h2>
               
-            ### <h3> ${description}
-           ### ${link} </h3>
+### <h3> ${description}
+### ${link} </h3>
            
           `;
           })
@@ -32,13 +32,12 @@ const generateAbout = aboutText => {
           .filter(({ feature }) => !feature)
           .map(({ name, description, languages, link }) => {
             return `
-           # ${name}
+# ${name}
              
-              ##  Built With:
-                ${languages.join(', ')}
+##  Built With: ${languages.join(', ')}
            
-            ## ${description}
-             ### "${link}" 
+## ${description}
+### "${link}" 
    
           `;
           })
@@ -55,21 +54,18 @@ const generateAbout = aboutText => {
   const {projects, about, ...header} = templateData;
   
     return `
-   
-    
-    
-      #${header.name}
+#${header.name}
       
-     ## href="https://github.com/${header.github}">Github
+## href="https://github.com/${header.github}">Github
     
   
  
-   ### ${generateAbout(about)}
+### ${generateAbout(about)}
     ${generateProjects(projects)}
   
   
   
-    ${new Date().getFullYear()} by ${header.name}
+# ${new Date().getFullYear()} by ${header.name}
 
     
      

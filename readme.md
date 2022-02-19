@@ -1,19 +1,19 @@
 
- # Project Readme Generator    
+ # Prject Name    
  
         
 ## Desription: 
-Fun way to add a readme to your Github file easily and fast
+description goes here
 ## Names of Contributors: 
-Chris Waters, UCF   
+Chris Waters   
 ## Problem this project solves:
- Faster way to add readme   
+ Solves adding a readme easier   
 ## Built with:
-JavaScript, CSS
+JavaScript, HTML
 ## Type of Licenses 
-MIT, Mozilla, Apache          
+GNU          
 ## Reference Links: 
-yahoo.com
+Youtube.com
  
     
  ## "https://github.com/Waters000"

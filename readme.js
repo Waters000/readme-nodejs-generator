@@ -129,8 +129,8 @@ const promptProject = portfolioData => {
       {
         type: 'checkbox',
         name: 'license',
-        message: 'What license is used? (Check all that apply)',
-        choices: ['MIT', 'GNU', 'Mozilla', 'Apache', 'GPLUv3', 'Public', 'Google']
+        message: 'What license is used? (Check one)',
+        choices: ['MIT', 'Boost', 'Mozilla', 'Apache', 'GNU', 'Public', 'Unlicense']
       },
      
     //   

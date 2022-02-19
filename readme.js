@@ -34,7 +34,7 @@ const promptUser = () => {
     {
         type: 'confirm',
         name: 'confirmAbout',
-        message: 'Would you like photo Added to Readme?',
+        message: 'Would you like to add an image in your folder assets/images/screenshot.png to readme?',
         default: true
       },
   ]);

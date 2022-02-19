@@ -78,17 +78,29 @@ const promptProject = portfolioData => {
       {
         type: 'input',
         name: 'problem',
-        message: 'What the problems this project works for? (Required)',
+        message: 'How do you intend to use this project? (Required)',
         validate: problemInput => {
           if (problemInput) {
             return true;
           } else {
-            console.log('What problem does this solve?');
+            console.log('How to use this project?');
             return false;
           }
         }
       },
-     
+      {
+        type: 'input',
+        name: 'install',
+        message: 'How to install this project? (Required)',
+        validate: installInput => {
+          if (installInput) {
+            return true;
+          } else {
+            console.log('How to install this project?');
+            return false;
+          }
+        }
+      },
       {
         type: 'checkbox',
         name: 'languages',
@@ -103,8 +115,8 @@ const promptProject = portfolioData => {
       },
       {
         type: 'input',
-        name: 'link',
-        message: 'Any Links used as a reference to build project.',
+        name: 'email',
+        message: 'What is your email address?',
       
       },
     //   

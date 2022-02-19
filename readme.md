@@ -1,21 +1,24 @@
 
- # README Generator built on Node.js    
+ # Title of Project
+  project    
  
         
 ## Desription: 
-README Generator is an easy way to upload a professional README.md file for you Github project. The program, built on Node.js, walks the user through questions to easily ansnwer and format a professional README.md.
-## Names of Contributors: 
+description
+## Contributing: 
 Chris Waters   
-## Problem this project solves:
- Tired of having to lookup what should go into your README.md file and stying it to look professional.  Problem solved, easily answer questions pertaiing to your project and the README generator, built on Node.JS will populate and upload a professional readme to your project.   
+## Usage:
+ generator   
 ## Built with:
-JavaScript, Node
+JavaScript
+## How to install?
+npm i
 ## Type of Licenses 
-MIT, Mozilla          
-## Reference Links: 
-www.Github.com
+MIT          
+## Questions: 
+Waters@gmail.com - Please send me an email with additional questions or any suggestions or make this project better.
  
     
- ## "https://github.com/Waters000"
+ ## "https://github.com/waters000"
  ![alt text](assets/images/screenshot.png)
-### 2022 by Waters000  
+### 2022 by waters000  

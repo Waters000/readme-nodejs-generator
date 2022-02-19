@@ -13,7 +13,7 @@ const generateAbout = confirmAbout => {
           .filter(({ feature }) => !feature)
           .map(({ name, license, test, confirmAbout, install, description, problem, github, languages, email }) => {
             return `
-## Desription: 
+## Description: 
 ${description}
 ## Installation
 ${install}
@@ -52,7 +52,7 @@ ${license.join(', ')}
   "https://github.com/${header.github}"
 
   ${generateAbout(confirmAbout)}
-### Year-Built
+### Year Built
 ${new Date().getFullYear()} by ${header.github}  `;
   };
   

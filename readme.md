@@ -1,21 +1,21 @@
 
- # Prject Name    
+ # Readme Node.jS generator    
  
         
 ## Desription: 
-description goes here
+The Node.js generator is a quick and easy way to add a README.md to any github project
 ## Names of Contributors: 
 Chris Waters   
 ## Problem this project solves:
- Solves adding a readme easier   
+ Saves times and performs and easy layout to add a professional README without having to look up or style fields.   
 ## Built with:
-JavaScript, HTML
+JavaScript, Node
 ## Type of Licenses 
-GNU          
+MIT          
 ## Reference Links: 
-Youtube.com
+Github.com
  
     
  ## "https://github.com/Waters000"
- ![Screenshot 2022-01-29 190329](https://user-images.githubusercontent.com/94644749/151681703-6695c05a-eb11-422b-9a5f-5c0c2410157a.png)
+ 
 ### 2022 by Waters000  

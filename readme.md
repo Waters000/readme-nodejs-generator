@@ -17,6 +17,8 @@
 
 ## Description: 
 fa
+https://img.shields.io/badge/generator-MIT-brightgreen
+
 ## Installation
 asd
 ## Usage:

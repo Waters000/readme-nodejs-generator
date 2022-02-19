@@ -47,7 +47,6 @@ const generateLicense = license => {
 
 ## Description: 
 ${description}
-https://img.shields.io/badge/generator-MIT-brightgreen
 ## Installation
 ${install}
 ## Usage:

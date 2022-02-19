@@ -3,7 +3,7 @@ const generateAbout = confirmAbout => {
     if (!confirmAbout) {
       return '';
     } else {
-    return "![Screenshot 2022-01-29 190329](https://user-images.githubusercontent.com/94644749/151681703-6695c05a-eb11-422b-9a5f-5c0c2410157a.png)";
+    return "![alt text](assets/images/screenshot.png)";
     }  
 }
 

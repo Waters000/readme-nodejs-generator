@@ -7,6 +7,28 @@ const generateAbout = confirmAbout => {
     }  
 }
 
+const generateBadge = license => {
+    if (license == "MIT") {
+      return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+    } else if (license == "Boost"){
+    return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+    }  else if (license == "Mozilla") {
+        return "Mozilla License - Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses)"
+    } else if (license == "Apache") {
+        return "Apache License -  A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code."
+    } else if (license == "GNU") {
+        return "GNU License - Permissions of this strongest copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved."
+    } else if (license == "Public") {
+        return "Public License - Free for all and open to use with anything."
+    } else if (license == "Unlicense") {
+        return "Unlicense -  A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code."
+    } else  {
+        return "No license listed."
+    }
+}
+
+
+
 const generateLicense = license => {
     if (license == "MIT") {
       return 'MIT License - A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.';
@@ -46,7 +68,7 @@ const generateLicense = license => {
 9. [Year Built](#Year-built)
 
 ## Description: 
-${description}
+${description} ${generateBadge(license)}
 ## Installation
 ${install}
 ## Usage:

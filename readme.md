@@ -1,6 +1,6 @@
 
  # Title of Project
-  asdfas    
+  asdfasdf    
  
         
             
@@ -16,31 +16,29 @@
 9. [Year Built](#Year-built)
 
 ## Description: 
-fa
-https://img.shields.io/badge/generator-MIT-brightgreen
-
+df [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Installation
-asd
+asdf
 ## Usage:
- asddf  
+ asdf  
 ## Contributing: 
-sdf   
+asdfasd   
 ## Tests:
-fasdf
+asdf
  
 ## Built with:
 JavaScript
 
 ## Type of Licenses 
 ## License
-Unlicense -  A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.
-Unlicense          
+MIT License - A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+         
 
 
 
     
  ## Questions
-  asdf - Please send me an email with additional questions or any suggestions or make this project better.
+  asd - Please send me an email with additional questions or any suggestions or make this project better.
  <br>
   "https://github.com/asdf"
 

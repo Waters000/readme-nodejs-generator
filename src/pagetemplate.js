@@ -13,6 +13,17 @@ const generateAbout = confirmAbout => {
           .filter(({ feature }) => !feature)
           .map(({ name, license, test, confirmAbout, install, description, problem, github, languages, email }) => {
             return `
+## Table of Contents
+1. [Description](#Description)
+2. [Installation](#Installation)
+3. [Usage](#Usage)
+4. [Contributing](#Contributing)
+5. [Tests](#Tests)
+6. [Built With:](#Built-with)
+7. [Licenses](#Licenses)
+8. [Questions](#Questions)
+9. [Year Built](#Year-built)
+
 ## Description: 
 ${description}
 ## Installation

@@ -32,6 +32,12 @@ const promptUser = () => {
       }
     },
     {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
+      
+      },
+    {
         type: 'confirm',
         name: 'confirmAbout',
         message: 'Would you like to add an image in your folder assets/images/screenshot.png to readme?',
@@ -65,12 +71,12 @@ const promptProject = portfolioData => {
         {
         type: 'input',
         name: 'name',
-        message: 'Add names of Contributors seperated by a comma (Required)',
+        message: 'Add names of Contributors and how to contribute. (Required)',
         validate: nameInput => {
           if (nameInput) {
             return true;
           } else {
-            console.log('Please add contributors?');
+            console.log('Please add contributors and how to contribute?');
             return false;
           }
         }
@@ -102,6 +108,19 @@ const promptProject = portfolioData => {
         }
       },
       {
+        type: 'input',
+        name: 'test',
+        message: 'How to test project? (Required)',
+        validate: testInput => {
+          if (testInput) {
+            return true;
+          } else {
+            console.log('How to test project?');
+            return false;
+          }
+        }
+      },
+      {
         type: 'checkbox',
         name: 'languages',
         message: 'What did you this project with? (Check all that apply)',
@@ -113,12 +132,7 @@ const promptProject = portfolioData => {
         message: 'What license is used? (Check all that apply)',
         choices: ['MIT', 'GNU', 'Mozilla', 'Apache', 'GPLUv3', 'Public', 'Google']
       },
-      {
-        type: 'input',
-        name: 'email',
-        message: 'What is your email address?',
-      
-      },
+     
     //   
     
     ])

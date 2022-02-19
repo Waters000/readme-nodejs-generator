@@ -1,24 +1,31 @@
 
  # Title of Project
-  project    
+  project name    
  
         
 ## Desription: 
-description
-## Contributing: 
-Chris Waters   
+descriptiong goes here
+## Installation
+install via npm i
 ## Usage:
- generator   
+ fasdlfjas;ldfjas;dfkjas;df, use to intend  
+## Contributing: 
+chris waters, email   
+## Tests:
+test via downloading git hub link
+ 
 ## Built with:
 JavaScript
-## How to install?
-npm i
+
 ## Type of Licenses 
 MIT          
-## Questions: 
-Waters@gmail.com - Please send me an email with additional questions or any suggestions or make this project better.
- 
+
+
+
     
- ## "https://github.com/waters000"
- ![alt text](assets/images/screenshot.png)
+ ## Questions
+  floridarealty0@gmail.com - Please send me an email with additional questions or any suggestions or make this project better.
+  "https://github.com/waters000"
+  
+  ![alt text](assets/images/screenshot.png)
 ### 2022 by waters000  

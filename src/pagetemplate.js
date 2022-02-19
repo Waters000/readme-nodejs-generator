@@ -11,23 +11,27 @@ const generateAbout = confirmAbout => {
     return `
         ${projectsArr
           .filter(({ feature }) => !feature)
-          .map(({ name, license, confirmAbout, install, description, problem, languages, email }) => {
+          .map(({ name, license, test, confirmAbout, install, description, problem, github, languages, email }) => {
             return `
 ## Desription: 
 ${description}
+## Installation
+${install}
+## Usage:
+ ${problem}  
 ## Contributing: 
 ${name}   
-## Usage:
- ${problem}   
+## Tests:
+${test}
+ 
 ## Built with:
 ${languages.join(', ')}
-## How to install?
-${install}
+
 ## Type of Licenses 
 ${license.join(', ')}          
-## Questions: 
-${email} - Please send me an email with additional questions or any suggestions or make this project better.
- `;
+
+
+`;
           })
         }
     `;
@@ -42,8 +46,11 @@ ${email} - Please send me an email with additional questions or any suggestions 
  # Title of Project
   ${header.name}    
  ${generateProjects(projects)}
- ## "https://github.com/${header.github}"
- ${generateAbout(confirmAbout)}
+ ## Questions
+  ${header.email} - Please send me an email with additional questions or any suggestions or make this project better.
+  "https://github.com/${header.github}"
+  
+  ${generateAbout(confirmAbout)}
 ### ${new Date().getFullYear()} by ${header.github}  `;
   };
   

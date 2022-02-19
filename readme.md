@@ -2,6 +2,12 @@
  # Title of Project
   project name    
  
+ ## Table of Contents
+1. [Description](##Description)
+2. [Installation](#Installation)
+3. [Installation](#installation)
+4. [Collaboration](#collaboration)
+5. [Questions](##Questions)
         
 ## Desription: 
 descriptiong goes here

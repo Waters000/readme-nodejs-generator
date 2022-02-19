@@ -48,8 +48,9 @@ ${license.join(', ')}
  ${generateProjects(projects)}
  ## Questions
   ${header.email} - Please send me an email with additional questions or any suggestions or make this project better.
+ <br>
   "https://github.com/${header.github}"
-  
+
   ${generateAbout(confirmAbout)}
 ### ${new Date().getFullYear()} by ${header.github}  `;
   };

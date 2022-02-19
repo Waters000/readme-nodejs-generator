@@ -52,6 +52,7 @@ ${license.join(', ')}
   "https://github.com/${header.github}"
 
   ${generateAbout(confirmAbout)}
-### ${new Date().getFullYear()} by ${header.github}  `;
+### Year-Built
+${new Date().getFullYear()} by ${header.github}  `;
   };
   

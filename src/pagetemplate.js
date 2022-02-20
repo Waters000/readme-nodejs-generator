@@ -55,7 +55,7 @@ const generateLicense = license => {
           .filter(({ feature }) => !feature)
           .map(({ name, license, test, confirmAbout, install, description, problem, github, languages, email }) => {
             return `
-            
+${generateBadge(license)}            
 ## Table of Contents
 1. [Description](#Description)
 2. [Installation](#Installation)
@@ -68,8 +68,9 @@ const generateLicense = license => {
 9. [Year Built](#Year-built)
 
 ## Description: 
+
 ${description} 
-${generateBadge(license)}
+
 ## Installation
 ${install}
 ## Usage:
@@ -97,16 +98,18 @@ ${generateLicense(license)}
   
   module.exports = templateData => { 
   // destructure projects and about data from templateData based on their property key name
-  const {projects, confirmAbout, ...header} = templateData;
+  const {projects, license, confirmAbout, ...header} = templateData;
   
     return `
  # Title of Project
-  ${header.name}    
+  ${header.name}  
+  
  ${generateProjects(projects)}
  ## Questions
   ${header.email} - Please send me an email with additional questions or any suggestions or make this project better.
- <br>
-  "https://github.com/${header.github}"
+ 
+  Visit github profile:
+  https://github.com/${header.github}
 
   ${generateAbout(confirmAbout)}
  

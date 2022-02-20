@@ -1,9 +1,10 @@
 
  # Title of Project
-  README.md Generator    
+  README.md Generator  
+  
  
         
-            
+[![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)            
 ## Table of Contents
 1. [Description](#Description)
 2. [Installation](#Installation)
@@ -16,19 +17,20 @@
 9. [Year Built](#Year-built)
 
 ## Description: 
-Fastest way to add a profession README to any project.  Save time by answering a list of questions that will by styled and displayed in a nice professional README.md 
-[![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)
+
+This project generates a README.md file through Node.JS by answering a few questions from the command line.  All questions are then added to a README.md file styled and in an professoinal order. 
+
 ## Installation
-Use npm i
+npm i
 ## Usage:
- Use this project with any GitHub project that needs a README file to speed up your documenting process.  
+ Usage is to speed up developing a README.md file for any project so it looks professional, answers all questions and provides licensing images.  
 ## Contributing: 
-Chris Waters, send an email to address below to contribute   
+Chris Waters, download Github link or send email.   
 ## Tests:
-Downloan with npm project, install fs and inquirer modules
+install npm, inquirer and fs
  
 ## Built with:
-JavaScript, Node
+JavaScript
 
 ## Type of Licenses 
 ## License
@@ -40,8 +42,9 @@ Public License - Free for all and open to use with anything.
     
  ## Questions
   Floridarealty001@gmail.com - Please send me an email with additional questions or any suggestions or make this project better.
- <br>
-  "https://github.com/Waters000"
+ 
+  Visit github profile:
+  https://github.com/Waters000
 
   ![alt text](assets/images/screenshot.png)
  

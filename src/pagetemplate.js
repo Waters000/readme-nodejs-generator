@@ -13,15 +13,15 @@ const generateBadge = license => {
     } else if (license == "Boost"){
     return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
     }  else if (license == "Mozilla") {
-        return "Mozilla License - Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses)"
+        return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
     } else if (license == "Apache") {
-        return "Apache License -  A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code."
+        return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     } else if (license == "GNU") {
-        return "GNU License - Permissions of this strongest copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved."
+        return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
     } else if (license == "Public") {
-        return "Public License - Free for all and open to use with anything."
+        return "[![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)"
     } else if (license == "Unlicense") {
-        return "Unlicense -  A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code."
+        return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)"
     } else  {
         return "No license listed."
     }
@@ -68,7 +68,8 @@ const generateLicense = license => {
 9. [Year Built](#Year-built)
 
 ## Description: 
-${description} ${generateBadge(license)}
+${description} 
+${generateBadge(license)}
 ## Installation
 ${install}
 ## Usage:

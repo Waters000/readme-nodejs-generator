@@ -1,6 +1,6 @@
 
  # Title of Project
-  asdfasdf    
+  README.md Generator    
  
         
             
@@ -16,34 +16,35 @@
 9. [Year Built](#Year-built)
 
 ## Description: 
-df [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Fastest way to add a profession README to any project.  Save time by answering a list of questions that will by styled and displayed in a nice professional README.md 
+[![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)
 ## Installation
-asdf
+Use npm i
 ## Usage:
- asdf  
+ Use this project with any GitHub project that needs a README file to speed up your documenting process.  
 ## Contributing: 
-asdfasd   
+Chris Waters, send an email to address below to contribute   
 ## Tests:
-asdf
+Downloan with npm project, install fs and inquirer modules
  
 ## Built with:
-JavaScript
+JavaScript, Node
 
 ## Type of Licenses 
 ## License
-MIT License - A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+Public License - Free for all and open to use with anything.
          
 
 
 
     
  ## Questions
-  asd - Please send me an email with additional questions or any suggestions or make this project better.
+  Floridarealty001@gmail.com - Please send me an email with additional questions or any suggestions or make this project better.
  <br>
-  "https://github.com/asdf"
+  "https://github.com/Waters000"
 
-  
+  ![alt text](assets/images/screenshot.png)
  
 
 ### Year Built
-2022 by asdf  
+2022 by Waters000  

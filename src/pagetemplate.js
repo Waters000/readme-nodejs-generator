@@ -60,7 +60,7 @@ ${generateBadge(license)}
 1. [Description](#Description)
 2. [Installation](#Installation)
 3. [Usage](#Usage)
-4. [Licenses](#Licenses)
+4. [License](#License)
 5. [Contributing](#Contributing)
 6. [Tests](#Tests)
 7. [Built With:](#Built-with)
@@ -68,24 +68,20 @@ ${generateBadge(license)}
 9. [Year Built](#Year-built)
 
 ## Description: 
-
 ${description} 
-
 ## Installation
 ${install}
 ## Usage:
  ${problem}  
+ ## License
+${generateLicense(license)}
 ## Contributing: 
 ${name}   
 ## Tests:
 ${test}
- 
 ## Built with:
 ${languages.join(', ')}
 
-## Type of Licenses 
-## License
-${generateLicense(license)}
          
 
 

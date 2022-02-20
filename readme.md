@@ -1,6 +1,6 @@
 
  # Title of Project
-  README.md Generator  
+  README.md Generator from Node.JS  
   
  
         
@@ -9,7 +9,7 @@
 1. [Description](#Description)
 2. [Installation](#Installation)
 3. [Usage](#Usage)
-4. [Licenses](#Licenses)
+4. [License](#License)
 5. [Contributing](#Contributing)
 6. [Tests](#Tests)
 7. [Built With:](#Built-with)
@@ -17,24 +17,20 @@
 9. [Year Built](#Year-built)
 
 ## Description: 
-
-This project generates a README.md file through Node.JS by answering a few questions from the command line.  All questions are then added to a README.md file styled and in an professoinal order. 
-
+This project generates a README.md file through Node.JS by answering a few questions from the command line. All questions are then added to a README.md file styled and in an professoinal order. 
 ## Installation
-npm i
+Install by using nmp i.  Requires packages FS and Inquirer
 ## Usage:
  Usage is to speed up developing a README.md file for any project so it looks professional, answers all questions and provides licensing images.  
-## Contributing: 
-Chris Waters, download Github link or send email.   
-## Tests:
-install npm, inquirer and fs
- 
-## Built with:
-JavaScript
-
-## Type of Licenses 
-## License
+ ## License
 Public License - Free for all and open to use with anything.
+## Contributing: 
+Chris Waters, send email or use Github fork   
+## Tests:
+Test by downloading via nmp package manager and answering the questions via node readme
+## Built with:
+JavaScript, Node
+
          
 
 

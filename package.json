@@ -1,0 +1,23 @@
+{
+  "name": "readme-mod9",
+  "version": "1.0.0",
+  "description": "README GENERATOR PROJECT",
+  "main": "README.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waters000/readme-nodejs-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Waters000/readme-nodejs-generator/issues"
+  },
+  "homepage": "https://github.com/Waters000/readme-nodejs-generator#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.0"
+  }
+}

@@ -1,10 +1,10 @@
 
  # Title of Project
-  README GENERATOR PROJECT  
+  Note Taker NodeJS  
   
  
         
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)            
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)            
 ## Table of Contents
 1. [Description](#Description)
 2. [Installation](#Installation)
@@ -17,19 +17,19 @@
 9. [Year Built](#Year-built)
 
 ## Description: 
-This project generates a README.md file through Node.JS by answering a few questions from the command line. All questions are then added to a README.md file styled and in an professoinal order. 
+The note taker project is a great way to add notes for one's daily task.  Add a note and review it in the main panel by clicking on the note. 
 ## Installation
-npm i
+intstall via npm install and use dependencies Express, FS
 ## Usage:
- Usage is to speed up developing a README.md file for any project so it looks professional, answers all questions and provides licensing images.  
+ Add notes via web app  
  ## License
-MIT License - A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+Mozilla License - Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses)
 ## Contributing: 
 Chris Waters   
 ## Tests:
-Download and use npm package with inquier and fs modules
+Download to a folder, run with Node and dependencies
 ## Built with:
-JavaScript, Node
+JavaScript, HTML, CSS, Node
 
          
 
@@ -37,7 +37,7 @@ JavaScript, Node
 
     
  ## Questions
-  floridarealty001@gmail.com - Please send me an email with additional questions or any suggestions or make this project better.
+  Floridarealty001@gmail.com - Please send me an email with additional questions or any suggestions or make this project better.
  
   Visit github profile:
   https://github.com/Waters000
@@ -47,5 +47,3 @@ JavaScript, Node
 
 ### Year Built
 2022 by Waters000  
-
-Video Link:https://drive.google.com/file/d/1ckmq7AXZctBt0hCDyDyP01UippwDhamB/view
